@@ -1,0 +1,25 @@
+# 环境与依赖（install.sh 生成）
+.venv/
+vendor/
+node_modules/
+
+# 配乐不随包分发（Mixkit 许可不允许再分发），按 _kit/风格H/README.md 自己放
+**/remotion/public/audio/bgm.mp3
+
+# 人物和空镜素材（每期自己放进来；保留空文件夹占位）
+**/remotion/public/host/*
+!**/remotion/public/host/.gitkeep
+**/remotion/public/broll/*
+!**/remotion/public/broll/.gitkeep
+
+# 渲染输出、自检产物
+**/remotion/out/
+smoke/
+selftest.log
+
+# 各期工程默认不进库（含个人素材）；想分享某期的代码再单独加
+/*-*-*/
+
+# 系统垃圾文件
+.DS_Store
+._*

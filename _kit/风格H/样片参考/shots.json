@@ -1,0 +1,1331 @@
+{
+ "_note": "全片 64 镜（粗剪时间轴 0–349.933s，10498 帧；返修起片尾 P64 合成延长 45 帧（口播后 1.5s 尾巴，人物定格），成片 0–351.433s、10543 帧）。时间是秒，f 是帧（30fps）。act = 第几幕。host / bg / card / entry 的取值见 SHOTBOOK 第 1 部分和第 5 部分。由 tools/sb_build.py 生成，改分镜改那里。",
+ "fps": 30,
+ "size": [
+  1080,
+  1920
+ ],
+ "scope": "full",
+ "shakes": [],
+ "wipes": [
+  {
+   "at": 15.2,
+   "f": 456,
+   "kind": "shrink",
+   "note": "人物收成头像（P06）"
+  },
+  {
+   "at": 19.8,
+   "f": 594,
+   "kind": "iris",
+   "note": "实拍收成吊坠 C09"
+  },
+  {
+   "at": 22.367,
+   "f": 671,
+   "kind": "match",
+   "note": "人变剪影"
+  },
+  {
+   "at": 51.4,
+   "f": 1542,
+   "kind": "carry",
+   "note": "顺着金线升上去（P14）"
+  },
+  {
+   "at": 113.8,
+   "f": 3414,
+   "kind": "match",
+   "note": "人变剪影（回扣，8 帧）"
+  },
+  {
+   "at": 130.667,
+   "f": 3920,
+   "kind": "barn",
+   "note": "对开门（第二幕开场）"
+  },
+  {
+   "at": 135.967,
+   "f": 4079,
+   "kind": "shrink",
+   "note": "人物收成头像（P31）"
+  },
+  {
+   "at": 207.7,
+   "f": 6231,
+   "kind": "expand",
+   "note": "头像放回满幅（P44）"
+  },
+  {
+   "at": 226.067,
+   "f": 6782,
+   "kind": "shrink",
+   "note": "人物收成头像（P47）"
+  },
+  {
+   "at": 294.4,
+   "f": 8832,
+   "kind": "barn",
+   "note": "对开门（P58）"
+  },
+  {
+   "at": 336.7,
+   "f": 10101,
+   "kind": "shrink",
+   "note": "人物收成头像（P63）"
+  },
+  {
+   "at": 344.067,
+   "f": 10322,
+   "kind": "expand",
+   "note": "头像放回满幅（P64）"
+  }
+ ],
+ "shots": [
+  {
+   "id": "P01",
+   "in": 0.0,
+   "out": 4.033,
+   "f": [
+    0,
+    121
+   ],
+   "sents": [
+    0
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "DustSweepTitle",
+   "entry": "sweep",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P02",
+   "in": 4.033,
+   "out": 6.4,
+   "f": [
+    121,
+    192
+   ],
+   "sents": [
+    0
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MSB",
+   "bg": "host_ms",
+   "card": "HeroQuestion",
+   "entry": "rise",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P03",
+   "in": 6.4,
+   "out": 8.367,
+   "f": [
+    192,
+    251
+   ],
+   "sents": [
+    1
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "pull",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P04",
+   "in": 8.367,
+   "out": 11.4,
+   "f": [
+    251,
+    342
+   ],
+   "sents": [
+    1
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "PendantDrop",
+   "entry": "drop",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P05",
+   "in": 11.4,
+   "out": 15.2,
+   "f": [
+    342,
+    456
+   ],
+   "sents": [
+    2,
+    3
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "MedallionFlip",
+   "entry": "flip",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P06",
+   "in": 15.2,
+   "out": 19.8,
+   "f": [
+    456,
+    594
+   ],
+   "sents": [
+    3
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "BleedTapeScale",
+   "entry": "brake",
+   "motif": false,
+   "clip": [
+    100,
+    640,
+    880,
+    130
+   ],
+   "built": true,
+   "revise": "人物从退场改成小头像，玻璃框上移（SHOTBOOK 2.1 P06 全片修订）"
+  },
+  {
+   "id": "P07",
+   "in": 19.8,
+   "out": 22.367,
+   "f": [
+    594,
+    671
+   ],
+   "sents": [
+    3,
+    4
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "IrisToPendant",
+   "entry": "iris",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P08",
+   "in": 22.367,
+   "out": 29.867,
+   "f": [
+    671,
+    896
+   ],
+   "sents": [
+    4
+   ],
+   "act": 1,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "SilhouetteThreads",
+   "entry": "draw",
+   "motif": false,
+   "built": true
+  },
+  {
+   "id": "P09",
+   "in": 29.867,
+   "out": 33.8,
+   "f": [
+    896,
+    1014
+   ],
+   "sents": [
+    5,
+    6
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MSB",
+   "bg": "host_ms",
+   "card": "QuoteSlip",
+   "entry": "type",
+   "motif": false
+  },
+  {
+   "id": "P10",
+   "in": 33.8,
+   "out": 40.2,
+   "f": [
+    1014,
+    1206
+   ],
+   "sents": [
+    6
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "paper",
+   "card": "TriCards",
+   "entry": "lift",
+   "motif": false
+  },
+  {
+   "id": "P11",
+   "in": 40.2,
+   "out": 42.9,
+   "f": [
+    1206,
+    1287
+   ],
+   "sents": [
+    6
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "PendantQuestion",
+   "entry": "flip",
+   "motif": true
+  },
+  {
+   "id": "P12",
+   "in": 42.9,
+   "out": 46.1,
+   "f": [
+    1287,
+    1383
+   ],
+   "sents": [
+    7
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "push",
+   "motif": false
+  },
+  {
+   "id": "P13",
+   "in": 46.1,
+   "out": 51.4,
+   "f": [
+    1383,
+    1542
+   ],
+   "sents": [
+    7,
+    8
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "BehindWordHook",
+   "entry": "rise",
+   "motif": false
+  },
+  {
+   "id": "P14",
+   "in": 51.4,
+   "out": 56.067,
+   "f": [
+    1542,
+    1682
+   ],
+   "sents": [
+    8
+   ],
+   "act": 1,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "SystemWebCarry",
+   "entry": "carry",
+   "motif": false
+  },
+  {
+   "id": "P15",
+   "in": 56.067,
+   "out": 58.5,
+   "f": [
+    1682,
+    1755
+   ],
+   "sents": [
+    9
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "pull",
+   "motif": false
+  },
+  {
+   "id": "P16",
+   "in": 58.5,
+   "out": 64.833,
+   "f": [
+    1755,
+    1945
+   ],
+   "sents": [
+    9,
+    10
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "paper",
+   "card": "RoadStations",
+   "entry": "draw",
+   "motif": false
+  },
+  {
+   "id": "P17",
+   "in": 64.833,
+   "out": 68.467,
+   "f": [
+    1945,
+    2054
+   ],
+   "sents": [
+    10,
+    11
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "AlleySteps",
+   "entry": "step",
+   "motif": false
+  },
+  {
+   "id": "P18",
+   "in": 68.467,
+   "out": 71.433,
+   "f": [
+    2054,
+    2143
+   ],
+   "sents": [
+    11
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "paper",
+   "card": "RoadStamped",
+   "entry": "stamp",
+   "motif": true
+  },
+  {
+   "id": "P19",
+   "in": 71.433,
+   "out": 76.0,
+   "f": [
+    2143,
+    2280
+   ],
+   "sents": [
+    11
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "SoftFocusWord",
+   "entry": "focus",
+   "motif": false
+  },
+  {
+   "id": "P20",
+   "in": 76.0,
+   "out": 83.467,
+   "f": [
+    2280,
+    2504
+   ],
+   "sents": [
+    11
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "SideColumnsRack",
+   "entry": "drop",
+   "motif": false
+  },
+  {
+   "id": "P21",
+   "in": 83.467,
+   "out": 85.967,
+   "f": [
+    2504,
+    2579
+   ],
+   "sents": [
+    12
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "push",
+   "motif": false
+  },
+  {
+   "id": "P22",
+   "in": 85.967,
+   "out": 88.2,
+   "f": [
+    2579,
+    2646
+   ],
+   "sents": [
+    12,
+    13
+   ],
+   "act": 1,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "SpotlightConcept",
+   "entry": "sweep",
+   "motif": false
+  },
+  {
+   "id": "P23",
+   "in": 88.2,
+   "out": 96.933,
+   "f": [
+    2646,
+    2908
+   ],
+   "sents": [
+    13
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "ARCH",
+   "bg": "paper",
+   "card": "TagsStrike",
+   "entry": "strike",
+   "motif": false
+  },
+  {
+   "id": "P24",
+   "in": 96.933,
+   "out": 102.167,
+   "f": [
+    2908,
+    3065
+   ],
+   "sents": [
+    14
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "umber",
+   "card": "ShadowMimic",
+   "entry": "mirror",
+   "motif": false
+  },
+  {
+   "id": "P25",
+   "in": 102.167,
+   "out": 108.667,
+   "f": [
+    3065,
+    3260
+   ],
+   "sents": [
+    14,
+    15
+   ],
+   "act": 1,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "umber",
+   "card": "ConvergeForm",
+   "entry": "converge",
+   "motif": false
+  },
+  {
+   "id": "P26",
+   "in": 108.667,
+   "out": 113.8,
+   "f": [
+    3260,
+    3414
+   ],
+   "sents": [
+    15
+   ],
+   "act": 1,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "IconPendants",
+   "entry": "drop",
+   "motif": true
+  },
+  {
+   "id": "P27",
+   "in": 113.8,
+   "out": 123.033,
+   "f": [
+    3414,
+    3691
+   ],
+   "sents": [
+    15,
+    16
+   ],
+   "act": 1,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "FlylineWords",
+   "entry": "fly",
+   "motif": false
+  },
+  {
+   "id": "P28",
+   "in": 123.033,
+   "out": 126.7,
+   "f": [
+    3691,
+    3801
+   ],
+   "sents": [
+    16
+   ],
+   "act": 1,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "pull",
+   "motif": false
+  },
+  {
+   "id": "P29",
+   "in": 126.7,
+   "out": 130.667,
+   "f": [
+    3801,
+    3920
+   ],
+   "sents": [
+    16
+   ],
+   "act": 1,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "PendantSink",
+   "entry": "sink",
+   "motif": false
+  },
+  {
+   "id": "P30",
+   "in": 130.667,
+   "out": 135.967,
+   "f": [
+    3920,
+    4079
+   ],
+   "sents": [
+    17
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "BarnDoorTags",
+   "entry": "door",
+   "motif": false
+  },
+  {
+   "id": "P31",
+   "in": 135.967,
+   "out": 140.167,
+   "f": [
+    4079,
+    4205
+   ],
+   "sents": [
+    17
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "AlbumTitle",
+   "entry": "track",
+   "motif": false
+  },
+  {
+   "id": "P32",
+   "in": 140.167,
+   "out": 146.833,
+   "f": [
+    4205,
+    4405
+   ],
+   "sents": [
+    18
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "umber",
+   "card": "CertOnThread",
+   "entry": "dangle",
+   "motif": false
+  },
+  {
+   "id": "P33",
+   "in": 146.833,
+   "out": 154.133,
+   "f": [
+    4405,
+    4624
+   ],
+   "sents": [
+    19
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "umber",
+   "card": "CertStack",
+   "entry": "stack",
+   "motif": false
+  },
+  {
+   "id": "P34",
+   "in": 154.133,
+   "out": 161.1,
+   "f": [
+    4624,
+    4833
+   ],
+   "sents": [
+    20
+   ],
+   "act": 2,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "umber",
+   "card": "CertWall",
+   "entry": "light",
+   "motif": false
+  },
+  {
+   "id": "P35",
+   "in": 161.1,
+   "out": 165.167,
+   "f": [
+    4833,
+    4955
+   ],
+   "sents": [
+    21
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "ArrowWord",
+   "entry": "draw",
+   "motif": false
+  },
+  {
+   "id": "P36",
+   "in": 165.167,
+   "out": 172.033,
+   "f": [
+    4955,
+    5161
+   ],
+   "sents": [
+    21,
+    22
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "umber",
+   "card": "ThreadToChild",
+   "entry": "tug",
+   "motif": false
+  },
+  {
+   "id": "P37",
+   "in": 172.033,
+   "out": 176.533,
+   "f": [
+    5161,
+    5296
+   ],
+   "sents": [
+    22
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "FULL_MSB",
+   "bg": "host_ms",
+   "card": "ForkPaths",
+   "entry": "fan",
+   "motif": false
+  },
+  {
+   "id": "P38",
+   "in": 176.533,
+   "out": 182.1,
+   "f": [
+    5296,
+    5463
+   ],
+   "sents": [
+    22
+   ],
+   "act": 2,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "umber",
+   "card": "LoopGroove",
+   "entry": "lap",
+   "motif": false
+  },
+  {
+   "id": "P39",
+   "in": 182.1,
+   "out": 184.3,
+   "f": [
+    5463,
+    5529
+   ],
+   "sents": [
+    23,
+    24
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "FramePlaque",
+   "entry": "trace",
+   "motif": false
+  },
+  {
+   "id": "P40",
+   "in": 184.3,
+   "out": 188.867,
+   "f": [
+    5529,
+    5666
+   ],
+   "sents": [
+    24
+   ],
+   "act": 2,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "ChapterFreedom",
+   "entry": "rise",
+   "motif": false
+  },
+  {
+   "id": "P41",
+   "in": 188.867,
+   "out": 193.967,
+   "f": [
+    5666,
+    5819
+   ],
+   "sents": [
+    24
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "ThreadsRevealed",
+   "entry": "reveal",
+   "motif": false
+  },
+  {
+   "id": "P42",
+   "in": 193.967,
+   "out": 202.767,
+   "f": [
+    5819,
+    6083
+   ],
+   "sents": [
+    25
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "paper",
+   "card": "RippleRings",
+   "entry": "ripple",
+   "motif": false
+  },
+  {
+   "id": "P43",
+   "in": 202.767,
+   "out": 207.7,
+   "f": [
+    6083,
+    6231
+   ],
+   "sents": [
+    26
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "BleedUnderline",
+   "entry": "bleed",
+   "motif": false
+  },
+  {
+   "id": "P44",
+   "in": 207.7,
+   "out": 210.033,
+   "f": [
+    6231,
+    6301
+   ],
+   "sents": [
+    27
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "expand",
+   "motif": false
+  },
+  {
+   "id": "P45",
+   "in": 210.033,
+   "out": 217.733,
+   "f": [
+    6301,
+    6532
+   ],
+   "sents": [
+    27
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "FULL_MSB",
+   "bg": "host_ms",
+   "card": "HeroQuestion",
+   "entry": "rise",
+   "motif": false
+  },
+  {
+   "id": "P46",
+   "in": 217.733,
+   "out": 226.067,
+   "f": [
+    6532,
+    6782
+   ],
+   "sents": [
+    28
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "BalanceScale",
+   "entry": "tilt",
+   "motif": false
+  },
+  {
+   "id": "P47",
+   "in": 226.067,
+   "out": 235.433,
+   "f": [
+    6782,
+    7063
+   ],
+   "sents": [
+    29
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "AnswerStrips",
+   "entry": "focus",
+   "motif": false
+  },
+  {
+   "id": "P48",
+   "in": 235.433,
+   "out": 243.8,
+   "f": [
+    7063,
+    7314
+   ],
+   "sents": [
+    30
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "umber",
+   "card": "ThreadBetween",
+   "entry": "tie",
+   "motif": false
+  },
+  {
+   "id": "P49",
+   "in": 243.8,
+   "out": 245.967,
+   "f": [
+    7314,
+    7379
+   ],
+   "sents": [
+    31
+   ],
+   "act": 2,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "pull",
+   "motif": false
+  },
+  {
+   "id": "P50",
+   "in": 245.967,
+   "out": 254.567,
+   "f": [
+    7379,
+    7637
+   ],
+   "sents": [
+    31
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "umber",
+   "card": "LoopExit",
+   "entry": "exit",
+   "motif": true
+  },
+  {
+   "id": "P51",
+   "in": 254.567,
+   "out": 260.633,
+   "f": [
+    7637,
+    7819
+   ],
+   "sents": [
+    32
+   ],
+   "act": 2,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "ThreadTrace",
+   "entry": "trace",
+   "motif": true
+  },
+  {
+   "id": "P52",
+   "in": 260.633,
+   "out": 263.067,
+   "f": [
+    7819,
+    7892
+   ],
+   "sents": [
+    33
+   ],
+   "act": 3,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "push",
+   "motif": false
+  },
+  {
+   "id": "P53",
+   "in": 263.067,
+   "out": 269.633,
+   "f": [
+    7892,
+    8089
+   ],
+   "sents": [
+    33
+   ],
+   "act": 3,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "ConditionNet",
+   "entry": "wave",
+   "motif": false
+  },
+  {
+   "id": "P54",
+   "in": 269.633,
+   "out": 273.933,
+   "f": [
+    8089,
+    8218
+   ],
+   "sents": [
+    34
+   ],
+   "act": 3,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "NodeCallouts",
+   "entry": "pop",
+   "motif": false
+  },
+  {
+   "id": "P55",
+   "in": 273.933,
+   "out": 281.4,
+   "f": [
+    8218,
+    8442
+   ],
+   "sents": [
+    34
+   ],
+   "act": 3,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "Emergence",
+   "entry": "gather",
+   "motif": false
+  },
+  {
+   "id": "P56",
+   "in": 281.4,
+   "out": 285.433,
+   "f": [
+    8442,
+    8563
+   ],
+   "sents": [
+    35
+   ],
+   "act": 3,
+   "cam": "cu",
+   "host": "FULL_CU",
+   "bg": "host_cu",
+   "card": "none",
+   "entry": "pull",
+   "motif": false
+  },
+  {
+   "id": "P57",
+   "in": 285.433,
+   "out": 294.4,
+   "f": [
+    8563,
+    8832
+   ],
+   "sents": [
+    36
+   ],
+   "act": 3,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "Rewire",
+   "entry": "rewire",
+   "motif": false
+  },
+  {
+   "id": "P58",
+   "in": 294.4,
+   "out": 304.3,
+   "f": [
+    8832,
+    9129
+   ],
+   "sents": [
+    37,
+    38
+   ],
+   "act": 3,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "ThreadsCut",
+   "entry": "door",
+   "motif": true
+  },
+  {
+   "id": "P59",
+   "in": 304.3,
+   "out": 313.467,
+   "f": [
+    9129,
+    9404
+   ],
+   "sents": [
+    38
+   ],
+   "act": 3,
+   "cam": "ms",
+   "host": "FULL_MSB",
+   "bg": "host_ms",
+   "card": "SlotSteps",
+   "entry": "roll",
+   "motif": false
+  },
+  {
+   "id": "P60",
+   "in": 313.467,
+   "out": 319.167,
+   "f": [
+    9404,
+    9575
+   ],
+   "sents": [
+    39
+   ],
+   "act": 3,
+   "cam": "ms",
+   "host": "ROUND",
+   "bg": "night",
+   "card": "DealtCards",
+   "entry": "deal",
+   "motif": false
+  },
+  {
+   "id": "P61",
+   "in": 319.167,
+   "out": 328.6,
+   "f": [
+    9575,
+    9858
+   ],
+   "sents": [
+    40
+   ],
+   "act": 3,
+   "cam": "-",
+   "host": "HIDE",
+   "bg": "night",
+   "card": "SelfCompass",
+   "entry": "needle",
+   "motif": false
+  },
+  {
+   "id": "P62",
+   "in": 328.6,
+   "out": 336.7,
+   "f": [
+    9858,
+    10101
+   ],
+   "sents": [
+    41
+   ],
+   "act": 3,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "PendantPause",
+   "entry": "drop",
+   "motif": true
+  },
+  {
+   "id": "P63",
+   "in": 336.7,
+   "out": 344.667,
+   "f": [
+    10101,
+    10340
+   ],
+   "sents": [
+    41,
+    42
+   ],
+   "act": 3,
+   "cam": "cu",
+   "host": "AVATAR",
+   "bg": "broll",
+   "card": "GoldenQuote",
+   "entry": "type",
+   "motif": false
+  },
+  {
+   "id": "P64",
+   "in": 344.667,
+   "out": 351.433,
+   "f": [
+    10340,
+    10543
+   ],
+   "sents": [
+    42,
+    43
+   ],
+   "act": 3,
+   "cam": "ms",
+   "host": "FULL_MS",
+   "bg": "host_ms",
+   "card": "TitlePromote",
+   "entry": "sweep",
+   "motif": true
+  }
+ ]
+}

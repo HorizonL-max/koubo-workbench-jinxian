@@ -1,0 +1,10 @@
+{
+ "_note": "模板 Demo 的镜头表（8 秒、3 镜）。新一期由 tools/sb_build.py 生成（同时写期目录的 shots.json 和这里）。",
+ "fps": 30, "size": [1080, 1920], "scope": "full", "shakes": [],
+ "wipes": [{"at": 6.4, "f": 192, "kind": "shrink", "note": "人物收成头像"}],
+ "shots": [
+  {"id": "D1", "in": 0.0, "out": 4.033, "f": [0, 121], "act": 1, "cam": "cu", "host": "FULL_CU", "bg": "host_cu", "card": "DustSweepTitle", "entry": "sweep"},
+  {"id": "D2", "in": 4.033, "out": 6.4, "f": [121, 192], "act": 1, "cam": "ms", "host": "FULL_MSB", "bg": "host_ms", "card": "RiseQuestion", "entry": "rise"},
+  {"id": "D3", "in": 6.4, "out": 8.0, "f": [192, 240], "act": 1, "cam": "cu", "host": "AVATAR", "bg": "night", "card": "PendantDrop", "entry": "drop"}
+ ]
+}
