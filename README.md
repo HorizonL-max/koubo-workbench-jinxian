@@ -15,8 +15,22 @@
 - **配乐要自己下载**：样片用的是 Mixkit 免费曲「Piano Reflections」，授权不允许随模板再分发，见 `_kit/风格H/README.md`「环境」一节
 - 依赖两个开源剪辑技能，安装脚本会自动装：[video-talkcraft](https://github.com/Vincentwei1021/video-talkcraft)（**非商用许可**）、[video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
 
+## 下载
+三种方式任选一种：
+
+- **让智能体帮你下**（最省事）：对它说「把 https://github.com/HorizonL-max/koubo-workbench-jinxian 克隆到本地」。
+- **自己用 git**：
+  ```bash
+  git clone https://github.com/HorizonL-max/koubo-workbench-jinxian.git
+  ```
+- **不用 git**：在本页点绿色的 **Code → Download ZIP**，解压即可。解压出来的文件夹名会多一个 `-main` 后缀，不影响使用。
+
+**以后怎么更新**：用 git 下载的，对智能体说「git pull 更新工作台」就能拿到最新修复；你自己剪的每期工程（`<账号>-<日期>-<主题>/`）不进版本库，更新不会动它们。下载 ZIP 的，重新下载一份新的，再把自己的每期工程文件夹挪过去。
+
+> Windows 用户：`.claude/skills/`、`.agents/skills/` 是软链接，Windows 上可能变成普通文本文件，工具就不会自动发现技能。不影响使用——第一句话让智能体「先读 AGENTS.md」，它会按 AGENTS.md 直接去 `skills/` 找。
+
 ## 上手
-1. 把整个文件夹放到内置盘上，用你的智能体**以这个文件夹为工作目录**打开。
+1. 把下载好的整个文件夹放到内置盘上，用你的智能体**以这个文件夹为工作目录**打开。
 2. 对它说「先读 AGENTS.md，然后帮我配环境」。它会跑 `setup/check_env.sh` 体检，再跑 `setup/install.sh` 自动补齐缺项（首次要下载几个 GB）。
 3. 说「跑一下自检」，或自己跑 `bash setup/selftest.sh`：在临时副本里跑体检、脱敏检查、冒烟渲染，3～5 分钟后打印一张通过 / 失败表；`smoke/样片.mp4` 是一段 8 秒样片（人物是合成的色块占位，字幕是样片开头的原话）。
 4. 说「剪这期口播，素材在 /path/to/素材文件夹」。两台机位的话告诉它哪条是近景、哪条是中景。
